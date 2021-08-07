@@ -203,8 +203,9 @@
         </else-if>
         <else-if type="article-journal">
           <group delimiter=" ">
-            <text variable="title" suffix="."/>
+            <text variable="title" suffix=" "/>
             <text variable="container-title" font-style="italic" form="short"/>
+            <date-part name="year"  font-weight="bold"/>
             <group delimiter=", ">
               <text macro="issued" font-weight="bold"/>
               <text variable="volume" font-style="italic"/>
